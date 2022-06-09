@@ -1,28 +1,38 @@
 {
-  "name": "express-vercel",
-  "version": "1.0.0",
-  "description": "Deploy express js to vercel.",
-  "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hatuanem199801/express-vercel/issues"
-  },
-  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
-  "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.17.1",
-    "node": "^17.7.2"
-  }
+    "name": "expressbase",
+    "version": "1.0.0",
+    "description": "Proyecto con estructura recomendada para comenzar nuevos proyectos con ExpressJs",
+    "main": "server.js",
+    "engines": {
+        "node": "14.x"
+      },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "expressJs",
+        "base"
+    ],
+    "author": "Lic. García Héctor",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.2",
+        "cloudinary": "^1.29.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.3",
+        "express-session": "^1.17.2",
+        "moment": "^2.29.1",
+        "mongoose": "^6.2.6",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4",
+        "path": "^0.12.7",
+        "validator": "^13.7.0",
+        "vercel": "^25.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
 }
